@@ -14,7 +14,7 @@
     margin: 0;
     color: #AAAAAA;
     list-style-type: none;
-    border-bottom: 1px #fff solid;
+    border-bottom: 1px #5C5C5C solid;
     padding: 10px 0 10px 10px;
     font-size:15px;
 }
@@ -26,6 +26,7 @@
 .Menu{
     display: none;
 }
+
 
 @media (max-width: 768px) {
 
@@ -44,6 +45,7 @@
         margin-left: 20px;
         font-size: 15px;
     }
+
 }
 
 

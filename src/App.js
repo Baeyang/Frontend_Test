@@ -11,9 +11,9 @@ function App() {
           <Nav></Nav>
         </div>
         <div className='Content-block'>
-          <Content></Content>
+            <Content></Content>
+          </div>
         </div>
-      </div>
 
     </>
   );

@@ -60,6 +60,7 @@ function Content() {
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                     <div className='Footer'>
                         Copyright@ 2021

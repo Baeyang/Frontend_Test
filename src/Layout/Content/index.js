@@ -1,11 +1,15 @@
 import './content.css'
+import logo from '../images/logoNCC 1.png'
+import css from '../images/css-icon 1.png'
+import html from '../images/html-icon 1 (1).png'
+import url from '../images/url-icon 1.png'
 function Content() {
     return (
         <>
             <div className='Content'>
                 <div className='container'>
                     <div className='Content__logo'>
-                        <img src='../images/logo.jpg' alt=''></img>
+                        <img src={logo} alt=''></img>
                     </div>
                     <div className='Content__text'>
                         <div className='Content__text-title'>
@@ -23,7 +27,7 @@ function Content() {
                             </div>
                             <div className='Content__options-main'>
                                 <div className='Content__options-img'>
-                                    <img src='../images/css-icon 1.png' alt='Image' />
+                                    <img src={css} alt='Image' />
                                 </div>
                                 <div className='Content__options-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
@@ -36,7 +40,7 @@ function Content() {
                             </div>
                             <div className='Content__options-main'>
                                 <div className='Content__options-img'>
-                                    <img src='../images/logo2.jpg' />
+                                    <img src={html} />
                                 </div>
                                 <div className='Content__options-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.
@@ -49,7 +53,7 @@ function Content() {
                             </div>
                             <div className='Content__options-main'>
                                 <div className='Content__options-img'>
-                                    <img src='../images/logo2.jpg' />
+                                    <img src={url} />
                                 </div>
                                 <div className='Content__options-text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dui sodales, faucibus libero ut, posuere felis. Donec imperdiet suscipit accumsan. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices liquam egestas nunc at ullamcorper ultricies. Donec feugiat velit nulla, vel sodales est ullamcorper id. Aenean consequat condimentum velit ut tempor. Nam porta massa in metus bibendum congue. Pellentesque ultrices vestibulum mattis.

@@ -19,9 +19,13 @@ function Nav(){
                 <li>
                     Contect
                 </li>
-
              </ul>
+
+            <div className='Menu'>
+                Menu
+            </div>
         </div>
+
         </>
     )
 }

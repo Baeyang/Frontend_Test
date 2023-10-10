@@ -1,15 +1,15 @@
 .Wrapper{
   display: flex;
-
+  /* flex-direction: column; */
+  flex-wrap: wrap;
 }
 
 .Nav-block{
   width: 150px;
   height: 100vh;
-  background: #191718;
 }
 .Content-block{
-  flex-grow: 1;
+  flex :1;
 }
 
 
@@ -24,11 +24,20 @@
   .container{
     max-width: 570px;
   }
+  .Nav-block{
+    width: 100%;
+    height: 50px;
+  }
 }
-@media (min-width: 768px){
+@media (max-width: 768px){
   .container{
     max-width: 720px;
   }
+  .Nav-block{
+    width: 100%;
+    height: 50px;
+  }
+  
 }
 @media (min-width: 992px){
   .container{
